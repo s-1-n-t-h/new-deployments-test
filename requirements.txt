@@ -1,5 +1,5 @@
 sanic==22.6.2
-transformers
+transformers>=4.32.0
 accelerate
 torch
 pytesseract
@@ -20,3 +20,5 @@ evaluate
 regex
 protobuf==3.9.2
 runpod
+optimum>=1.12.0
+auto-gptq

@@ -13,5 +13,5 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build Docker image
         run: |
-          docker build . --tag ghcr.io/everipedianetwork/runpod-serverless-summary:latest
-          docker push ghcr.io/everipedianetwork/runpod-serverless-summary:latest
+          docker build . --tag ghcr.io/s-1-n-t-h/runpod-serverless-textgen:latest
+          docker push ghcr.io/s-1-n-t-h/runpod-serverless-textgen:latest
